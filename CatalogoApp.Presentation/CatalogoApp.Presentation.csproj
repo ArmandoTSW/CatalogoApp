@@ -9,6 +9,17 @@
   <ItemGroup>
     <ProjectReference Include="..\Catalogo.Application\CatalogoApp.Application.csproj" />
     <ProjectReference Include="..\Catalogo.Infrastructure\CatalogoApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\CatalogoApp.Domain\CatalogoApp.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Data\items.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
